@@ -24,3 +24,6 @@ class TestTeacher:
         '''teaches from list of knowledge.'''
         my_teacher = Teacher("My", "Teacher")
         assert(my_teacher.teach() in my_teacher.knowledge)
+
+
+        
